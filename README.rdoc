@@ -16,16 +16,12 @@ The best way to fix this error is by the following
 
 To:
 
-```
  gem 'tzinfo-data', platforms: [:mingw, :mswin]
-```
-
 
 From:
 
-```
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-```
+
 
 
 
