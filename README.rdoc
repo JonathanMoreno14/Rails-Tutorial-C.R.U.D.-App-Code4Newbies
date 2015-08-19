@@ -7,8 +7,25 @@ This application is built upon the Ruby on Rails framework. The application cons
 
 * Rails 4.1.8
 
+=== Known Issues
+There as been many instances where developing or learning Ruby on Rails on a Windows machine is at times, time consuming due to the nature of the trouble-shooting issues that arise. One issue that I think that is consistant is the configuration when you use RailsInstaller. 
+
+The best way to fix this error is by the following
+
+"Windows does not include zoneinfo files, so bundle the tzinfo-data gem" within the gemfile
+
+To:
+
+```
+ gem 'tzinfo-data', platforms: [:mingw, :mswin]
+```
 
 
+From:
+
+```
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+```
 
 
 
