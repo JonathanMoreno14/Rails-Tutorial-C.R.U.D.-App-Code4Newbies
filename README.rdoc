@@ -1,6 +1,6 @@
 == README
 
-This application is built upon the Ruby on Rails framework. The application consist of C.R.U.D (Create, Delete, Update, & Delete) functionalities. The Rails application was created on a Windows machine ; 10.  The tutorial consisted of creating a simple Rails application with C.R.U.D. functionalities with video playback using the Wistia API. The design was created by using [materializecss] (http://materializecss.com/) and google maps api. 
+This application is built upon the Ruby on Rails framework. The application consist of C.R.U.D (Create, Delete, Update, & Delete) functionalities. The Rails application was created on a Windows machine ; 10.  The tutorial consisted of creating a simple Rails application with C.R.U.D. functionalities with video playback using the Wistia API. The design was created by using materializecss (http://materializecss.com/) and google maps api. 
 
 
 * Ruby version 2.1.0
