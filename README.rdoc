@@ -13,7 +13,7 @@ This project was uploaded on to  Heroku
 
 https://aqueous-bastion-4501.herokuapp.com/
 
-===Frist time set up for Heroku & issues for Windows machine
+===Frist time set up for Heroku for Windows machine
 When delpoying your Rails app into Heroku for the first time make sure to download the Heroku tool belt for your machine, in this case Windows. 
 ====steps:
 Create account on Heroku or if already have an account sign in
@@ -28,6 +28,38 @@ Add it at the bottom of the Gemfile
          gem 'pg'
          gem 'rails_12factor'
       end
+After the gems have been added we will run bundle install
+     bundle install --without production
+Once the bundle is installed in your git bash terminal run
+     heroku login
+Upload your credentials
+From there you will need to initilaize a git repo within your Rails project. If you have already have a git repository in your Rails project folder all you will need to do is add the updated files and commit to the master repository. I ran into an issue when I first deployed it to Heroku. 
+
+Next in your git bash type:
+    heroku create
+
+
+
+
+
+
+
+
+
+
+
+
+=====Git basic commands
+Initializes the repository
+     git init
+Adds the files into the initialized repository
+     git add .
+finally git commit to commit the files and add it to the master repository.
+     git commit -m "message goes here"
+Navigating through folders using git bash
+     cd filename
+Getting out a file directory
+     cd ..
 
 
 === Known Issues
