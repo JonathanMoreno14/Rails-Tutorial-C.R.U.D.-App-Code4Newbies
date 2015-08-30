@@ -37,17 +37,13 @@ From there you will need to initilaize a git repo within your Rails project. If 
 
 Next in your git bash type:
     heroku create
-
-
-
-
-
-
-
-
-
-
-
+Once Heroku is created you will see a custom URL followed by herokuapp.com
+You will need to push the git folder into heroku to finalize the deployment
+    git push heroku master
+The last thing you will need to do is in your git bash terminal you will need to migrate your database
+    heroku run rake db:migrate
+Finally to open your heroku app and view it on your web browser
+    heroku run rake db:migrate
 
 =====Git basic commands
 Initializes the repository
@@ -58,7 +54,9 @@ finally git commit to commit the files and add it to the master repository.
      git commit -m "message goes here"
 Navigating through folders using git bash
      cd filename
-Getting out a file directory
+Go back a previous location
+     cd -
+Moving up a file directory
      cd ..
 
 
