@@ -2,15 +2,33 @@
 
 This application is built upon the Ruby on Rails framework. The application consist of C.R.U.D (Create, Delete, Update, & Delete) functionalities. The Rails application was created on a Windows machine ; 10.  The tutorial consisted of creating a simple Rails application with C.R.U.D. functionalities with video playback using the Wistia API. The design was created by using materializecss (http://materializecss.com/) and google maps api. 
 
+
+* Ruby version 2.1.0
+
+* Rails 4.1.8
+
+
 ===Link to Code4Newbies project
 This project was uploaded on to  Heroku
 
 https://aqueous-bastion-4501.herokuapp.com/
 
+===Frist time set up for Heroku & issues for Windows machine
+When delpoying your Rails app into Heroku for the first time make sure to download the Heroku tool belt for your machine, in this case Windows. 
+====steps:
+Create account on Heroku or if already have an account sign in
+Then open your Rails project Gemfile and remove
+     # Use sqlite3 as the database for Active Record
+     gem 'sqlite3'
+Add it at the bottom of the Gemfile
+      group :development do
+         gem 'sqlite3'
+      end
+      group :production do
+         gem 'pg'
+         gem 'rails_12factor'
+      end
 
-* Ruby version 2.1.0
-
-* Rails 4.1.8
 
 === Known Issues
 There as been many instances where developing or learning Ruby on Rails on a Windows machine is at times, time consuming due to the nature of the trouble-shooting issues that arise. One issue that I think that is consistant is the configuration when you use RailsInstaller. 
