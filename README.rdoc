@@ -20,7 +20,7 @@ Create account on Heroku or if already have an account sign in
 Then open your Rails project Gemfile and remove
      # Use sqlite3 as the database for Active Record
      gem 'sqlite3'
-Add it at the bottom of the Gemfile
+Add it at the bottom of the Gemfile you will be adding a new group designated for production with the following
       group :development do
          gem 'sqlite3'
       end
@@ -43,7 +43,7 @@ You will need to push the git folder into heroku to finalize the deployment
 The last thing you will need to do is in your git bash terminal you will need to migrate your database
     heroku run rake db:migrate
 Finally to open your heroku app and view it on your web browser
-    heroku run rake db:migrate
+    heroku open
 
 =====Git basic commands
 Initializes the repository
