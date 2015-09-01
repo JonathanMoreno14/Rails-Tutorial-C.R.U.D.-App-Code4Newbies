@@ -52,6 +52,10 @@ Adds the files into the initialized repository
      git add .
 finally git commit to commit the files and add it to the master repository.
      git commit -m "message goes here"
+Checking the status of the repository
+     git status
+If you need to see the different changes that have occurred in the repository
+     git diff
 Navigating through folders using git bash
      cd filename
 Go back a previous location
