@@ -44,6 +44,10 @@ The last thing you will need to do is in your git bash terminal you will need to
     heroku run rake db:migrate
 Finally to open your heroku app and view it on your web browser
     heroku open
+======Side note: If you accidently delete your Rails app on heroku
+If you delete it by accident and your trying to utilize git push heroku master and there is an error the follwoing will remove the first herouk master file to be removed. 
+     git remote rm heroku
+    
 
 =====Git basic commands
 Initializes the repository
