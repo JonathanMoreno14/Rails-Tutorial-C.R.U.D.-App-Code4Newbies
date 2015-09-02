@@ -13,9 +13,9 @@ This project was uploaded on to  Heroku
 
 https://aqueous-bastion-4501.herokuapp.com/
 
-===Frist time set up for Heroku for Windows machine
+===First time set up for Heroku for Windows machine
 When delpoying your Rails app into Heroku for the first time make sure to download the Heroku tool belt for your machine, in this case Windows. 
-====steps:
+====Steps:
 Create account on Heroku or if already have an account sign in
 Then open your Rails project Gemfile and remove
      # Use sqlite3 as the database for Active Record
